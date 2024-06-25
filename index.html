@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resume web</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="#"><img src=""><b>ferdy</b></a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#about">About me</a></li>
+					<li><a href="#skills">My skills</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)">Work</a>
+						<div class="dropdown-menu">
+							<a href="web">Web Design</a>
+							<a href="brand">Brand Design</a>
+							<a href="animation">2D Animation</a>
+						</div>
+					</li>
+					<li><a href="#contacts">Contacts me</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<article id="home">
+				<div class="container">
+					<div class="column">
+						<div class="row">
+							<div class="single">
+								<img id="img-1" src="assets/images/ferdy.png" width="279px">
+							</div>
+							<div class="box double txtleft">
+								<h5>This is me</h5>
+								<h2>Ferdy Rahman</h2>
+								<p>You will You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+								<button>Discover Now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article id="about">
+				<div class="container">
+					<div class="column">
+						<div class="row">
+							<div class="box double txtright">
+								<h2>About me</h2>
+								<p>You will You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+							</div>
+							<div class="box single circle">
+								<img src="assets/images/me.jpeg" width="250px" id="circle">
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="container">
+					<div class="column">
+						<div class="row">
+							<div class="box single circle">
+								<img src="assets/images/experience.jpg" id="circle" width="250px">
+							</div>
+							<div class="box double txtleft">
+								<h2>Experience</h2>
+								<p>You will You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+								<a href="#">see more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="area p_20" id="skills">
+				<div class="container">
+					<div class="main_title min">
+						<h2>Skills me</h2>
+						<p>It is along estabilished fact that a reader will be distracted by the readable content of a page when looking at it's a layout</p>
+					</div>
+					<div class="inner row">
+						<div class="responsive">
+							<div class="galery">
+								<img src="assets/images/hospital.jpg">
+								<div class="desc">
+									<h4>Web UI/UX Design</h4>
+									<p>Interactive media, this we can often find. But that's a lot of impact on users with access to better understand their function and interfaces.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="responsive">
+							<div class="galery">
+								<img src="assets/images/label-cd.jpg">
+								<div class="desc">
+									<h4>Design Brand</h4>
+									<p>The media is often presented at various branding companies.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="responsive">
+							<div class="galery">
+								<img src="assets/images/animated.gif" alt="animated">
+								<div class="desc">
+									<h4>Animation</h4>
+									<p>This visually-based, animated 2d media is something we often see in promotional advertising.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="p_20">
+				<div class="container">
+					<div class="main_title">
+						<h2>My Work</h2>
+						<div class="projects_filter">
+							<ul>
+								<li class="s"><a href="#">Web Design</a></li>
+								<li class="s"><a href="#">Brand Design</a></li>
+								<li class="s"><a href="#">Animation</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="slideshow-container">
+							<div class="mySlides fade">
+								<img src="assets/images/hospital.jpg" style="width: 30%">
+								<img src="assets/images/hospital.jpg" style="width: 30%">
+								<img src="assets/images/hospital.jpg" style="width: 30%">
+							</div>
+							<div class="mySlides fade">
+								<img src="assets/images/label-cd.jpg" style="width: 30%">
+								<img src="assets/images/label-cd.jpg" style="width: 30%">
+								<img src="assets/images/label-cd.jpg" style="width: 30%">
+							</div>
+							<div class="mySlides fade">
+								<img src="assets/images/animated.gif" style="width: 30%">
+								<img src="assets/images/animated.gif" style="width: 30%">
+								<img src="assets/images/animated.gif" style="width: 30%">
+							</div>
+						</div>
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(1)"></span> 
+							<span class="dot" onclick="currentSlide(2)"></span> 
+							<span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="area p_20" id="contacts">
+				<div class="container">
+					<div class="main_title">
+						<h2>Contacts me</h2>
+					</div>
+					<div class="column">
+						<div class="row">
+							<div id="contact">
+								<label>Nama:</label>
+								<input type="text" name="nama" placeholder="your name">
+								<label>Email:</label>
+								<input type="text" name="email" placeholder="your email">
+								<label>Ask me?</label>
+								<textarea></textarea>
+								<input type="submit" name="submit">
+							</div>
+							<aside>
+								<article class="profile">
+									<img src="assets/images/ferdy.png">
+								</article>
+								<h3>Ferdy Rahman</h3>
+								<div class="icon">
+									<div class="social-media-button">
+										<a href="#"><img src="assets/images/fb.png"></a>
+									</div>
+									<div class="social-media-button">
+										<a href="#"><img src="assets/images/ig.png"></a>
+									</div>
+									<div class="social-media-button">
+										<a href="mailto:ferdy.rahman2001@gmail.com"><img src="assets/images/gmail.png"></a>
+									</div>
+									<div class="social-media-button">
+										<a href="#"><img src="assets/images/twitter.png"></a>
+									</div>
+									<div class="social-media-button">
+										<a href="youtube.com/channel/UCIs8Otl3FA5R89J6xZLeMVw/videos"><img src="assets/images/yt.png"></a>
+									</div>
+								</div>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<p>Resume Ferdy &copy;2020</p>
+	</footer>
+	<script type="text/javascript" src="assets/js/slider.js"></script>
+</body>
+</html>
